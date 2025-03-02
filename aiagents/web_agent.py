@@ -7,7 +7,7 @@ import os
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 
-client = groq.Groq(GROQ_API_KEY)
+client = groq.Groq(api_key=GROQ_API_KEY)
 model = "llama3-8b-8192"
 tavily_client = TavilyClient(TAVILY_API_KEY)
 

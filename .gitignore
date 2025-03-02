@@ -1,3 +1,5 @@
 agent
 .env
 .log
+__pycache__
+.pdf
